@@ -13,6 +13,6 @@ export default defineConfig({
     base: "/Caloteiro/"
   }, 
   tanstackStart: {
-    server: { },
+    server: { entry: "server" },
   },
 });
