@@ -1,4 +1,4 @@
-import { T as reactExports, G as isPromise, H as isRedirect, F as isNotFound, B as invariant, h as createControlledPromise, $ as rootRouteId, I as isServer$1, v as functionalUpdate$1, c as arraysEqual, i as createLRUCache, f as compileDecodeCharMap, a1 as trimPath, _ as rewriteBasepath, g as composeRewrites, S as processRouteTree, Q as processRouteMasks, Z as resolvePath, e as cleanPath, a3 as trimPathRight, P as parseHref, q as executeRewriteInput, C as isDangerousProtocol, U as redirect, u as findSingleMatch, l as deepEqual, D as DEFAULT_PROTOCOL_ALLOWLIST, d as buildRouteBranch, A as interpolatePath, N as nullReplaceEqualDeep, W as replaceEqualDeep$1, L as last, k as decodePath, s as findFlatMatch, t as findRouteMatch, z as hasKeys, r as executeRewriteOutput, n as encodePathLikeUrl, a2 as trimPathLeft, J as joinPaths, a5 as useRouter, m as dummyMatchContext, M as matchContext, x as getDefaultExportFromCjs, X as requireReactDom, p as exactPathTest, V as removeTrailingSlash, a as React2, K as jsxRuntimeExports, E as isModuleNotFoundError, a4 as useHydrated, o as escapeHtml, w as getAssetCrossOrigin, y as getScriptPreloadAttrs, b as appendUniqueUserTags, Y as resolveManifestCssLink, O as Outlet } from "./server-D10sljjO.js";
+import { T as reactExports, G as isPromise, H as isRedirect, F as isNotFound, B as invariant, h as createControlledPromise, $ as rootRouteId, I as isServer$1, v as functionalUpdate$1, c as arraysEqual, i as createLRUCache, f as compileDecodeCharMap, a1 as trimPath, _ as rewriteBasepath, g as composeRewrites, S as processRouteTree, Q as processRouteMasks, Z as resolvePath, e as cleanPath, a3 as trimPathRight, P as parseHref, q as executeRewriteInput, C as isDangerousProtocol, U as redirect, u as findSingleMatch, l as deepEqual, D as DEFAULT_PROTOCOL_ALLOWLIST, d as buildRouteBranch, A as interpolatePath, N as nullReplaceEqualDeep, W as replaceEqualDeep$1, L as last, k as decodePath, s as findFlatMatch, t as findRouteMatch, z as hasKeys, r as executeRewriteOutput, n as encodePathLikeUrl, a2 as trimPathLeft, J as joinPaths, a5 as useRouter, m as dummyMatchContext, M as matchContext, x as getDefaultExportFromCjs, X as requireReactDom, p as exactPathTest, V as removeTrailingSlash, a as React2, K as jsxRuntimeExports, E as isModuleNotFoundError, a4 as useHydrated, o as escapeHtml, w as getAssetCrossOrigin, y as getScriptPreloadAttrs, b as appendUniqueUserTags, Y as resolveManifestCssLink, O as Outlet } from "./server-CyUdrM-v.js";
 var reactUse = reactExports.use;
 function useForwardedRef(ref) {
   const innerRef = reactExports.useRef(null);
@@ -4672,7 +4672,7 @@ var QueryClientProvider = ({
   }, [client]);
   return /* @__PURE__ */ jsxRuntimeExports.jsx(QueryClientContext.Provider, { value: client, children });
 };
-const appCss = "/assets/styles-BCTg-tGS.css";
+const appCss = "/Caloteiro/assets/styles-BCTg-tGS.css";
 function NotFoundComponent() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex min-h-screen items-center justify-center bg-background px-4", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-md text-center", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-7xl font-bold text-foreground", children: "404" }),
@@ -4756,7 +4756,7 @@ function RootComponent() {
   const { queryClient } = Route$1.useRouteContext();
   return /* @__PURE__ */ jsxRuntimeExports.jsx(QueryClientProvider, { client: queryClient, children: /* @__PURE__ */ jsxRuntimeExports.jsx(Outlet, {}) });
 }
-const $$splitComponentImporter = () => import("./index-BdrR1Bbz.js");
+const $$splitComponentImporter = () => import("./index-B1BQbT9f.js");
 const Route2 = createFileRoute("/")({
   head: () => ({
     meta: [{

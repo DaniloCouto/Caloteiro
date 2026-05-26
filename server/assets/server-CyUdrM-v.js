@@ -16064,7 +16064,7 @@ function getResponse() {
 }
 var HEADERS = { TSS_SHELL: "X-TSS_SHELL" };
 async function getStartManifest(matchedRoutes) {
-  const { tsrStartManifest } = await import("./_tanstack-start-manifest_v-BdzYko7F.js");
+  const { tsrStartManifest } = await import("./_tanstack-start-manifest_v-CshyDgo1.js");
   const startManifest = tsrStartManifest();
   let routes = startManifest.routes;
   routes[rootRouteId];
@@ -17171,8 +17171,8 @@ var getBaseManifest = getProdBaseManifest;
 var createEarlyHintsForRequest = createEarlyHintsCollector;
 async function loadEntries() {
   const [routerEntry, startEntry, pluginAdapters] = await Promise.all([
-    import("./router-DASOjIM_.js").then((n2) => n2.a),
-    import("./start-Chzg1yaR.js"),
+    import("./router-CnddwpX5.js").then((n2) => n2.a),
+    import("./start-K-uVc7-T.js"),
     import("./empty-plugin-adapters-BFgPZ6_d.js")
   ]);
   return {
@@ -17210,8 +17210,8 @@ If you intentionally handle CSRF another way, disable this warning:
     },
   })`);
 }
-var ROUTER_BASEPATH = "/";
-var SERVER_FN_BASE = "/_serverFn/";
+var ROUTER_BASEPATH = "Caloteiro";
+var SERVER_FN_BASE = "/Caloteiro/_serverFn/";
 var IS_PRERENDERING = process.env.TSS_PRERENDERING === "true";
 var IS_SHELL_ENV = process.env.TSS_SHELL === "true";
 var ERR_NO_RESPONSE = "Internal Server Error";
