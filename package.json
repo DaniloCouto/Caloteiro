@@ -3,7 +3,7 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
-  "homepage": "https://DaniloCouto.github.io/Caloteiro",
+  "homepage": "https://danilocouto.github.io/Caloteiro",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
