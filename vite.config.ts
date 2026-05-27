@@ -8,7 +8,11 @@ export default defineConfig({
   plugins: [
     tsconfigPaths(),
     tanstackStart({
-      // This tells the native bundler to output purely static files 
+      app: {
+        router: {
+          base: "/Caloteiro/"
+        }
+      },
       prerender: {
         enabled: true
       }
