@@ -16,6 +16,7 @@ dist-ssr
 .nitro
 .lovable
 yarn.lock
+package-lock.json
 *.local
 
 # Wrangler / Cloudflare
